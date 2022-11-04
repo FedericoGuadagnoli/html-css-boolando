@@ -4,3 +4,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    padding-top: 120px;
+}
+
+
+/* UTILS */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    font-weight: 600;
+}
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.navbar-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-menu ul li {
+    padding: 0 5px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-logo img {
+    width: 8rem;
+} 
+
+.navbar-action i {
+    padding: 0 5px;
+}
