@@ -56,13 +56,14 @@ li a {
 
 .navbar-logo img {
     width: 8rem;
-} 
-
-.navbar-action i {
-    padding: 0 5px;
-    text-align: center;
 }
 
+.navbar-action {
+    text-align: center;
+}
+.navbar-action i {
+    padding: 0 5px;
+}
 /* MAIN */
 .row {
     display: flex;
@@ -124,9 +125,33 @@ li a {
 /* FOOTER */
 footer {
     width: 100%;
-    background-color: #1a1a1a;    
+    background-color: #1a1a1a;
 }
 
 .navbar-action p {
     font-size: 12px;
 }
+
+/* HOVER */
+
+
+.hidden-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 476px;
+    height: 687px;
+    display: none;
+}
+
+.card:hover .hidden-img, .card:hover .hidden {
+    display: block;
+}
+
+
+.hidden {
+    color: rgb(214, 9, 9);
+    display: none;
+}
+
+
