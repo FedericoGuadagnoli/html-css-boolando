@@ -6,15 +6,19 @@
 }
 
 body {
-    padding-top: 120px;
+    padding-top: 80px;
     font-family: sans-serif;
 }
 
 
 /* UTILS */
-.container {
+.container-header {
     width: 80%;
     margin: 0 auto;
+}
+.container {
+    width: 80%;
+    margin: 40px auto;
 }
 
 
@@ -24,7 +28,6 @@ header {
     background-color: #ff6900;
     position: fixed;
     top: 0;
-    font-weight: 600;
     z-index: 1;
 }
 .navbar {
@@ -39,6 +42,7 @@ header {
 .navbar-menu ul {
     list-style-type: none;
     display: flex;
+    margin-left: -5px;
 }
 
 .navbar-menu ul li {
@@ -47,6 +51,7 @@ header {
 li a {
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
 
 .navbar-logo img {
@@ -55,6 +60,7 @@ li a {
 
 .navbar-action i {
     padding: 0 5px;
+    text-align: center;
 }
 
 /* MAIN */
@@ -102,6 +108,9 @@ li a {
     bottom: 110px;
 }
 
+.eco.left {
+    left: 0;
+}
 
 .discount-price {
     color: red;
@@ -110,4 +119,14 @@ li a {
 
 .full-price {
     text-decoration: line-through;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #1a1a1a;    
+}
+
+.navbar-action p {
+    font-size: 12px;
 }
