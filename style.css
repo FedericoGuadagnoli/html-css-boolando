@@ -7,6 +7,7 @@
 
 body {
     padding-top: 120px;
+    font-family: sans-serif;
 }
 
 
@@ -24,6 +25,7 @@ header {
     position: fixed;
     top: 0;
     font-weight: 600;
+    z-index: 1;
 }
 .navbar {
     height: 70px;
@@ -53,4 +55,59 @@ li a {
 
 .navbar-action i {
     padding: 0 5px;
+}
+
+/* MAIN */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 687px;
+}
+
+.card {
+    position: relative;
+}
+
+.favourite {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 40px
+}
+
+.discount {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+}
+
+.eco {
+    background-color: #008000;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    left: 62px;
+    bottom: 110px;
+}
+
+
+.discount-price {
+    color: red;
+    font-weight: 600;
+}
+
+.full-price {
+    text-decoration: line-through;
 }
